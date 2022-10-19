@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Aves">
+        <item>Barranquero Bocon</item>
+        <item>Colibrí Sietecolores</item>
+        <item>Colibrí Paramuno</item>
+        <item>Compás</item>
+        <item>Frutero de Cabeza Negra</item>
+        <item>Inca de Frontino</item>
+        <item>Mielero Pechirrufo</item>
+        <item>Pato de los Torrentes</item>
+        <item>Tángara Multicolor</item>
+        <item>Buhíto Andino</item>
+    </string-array>
+</resources>

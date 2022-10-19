@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edtV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Primer Valor"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="97dp" />
+
+            <EditText
+                android:id="@+id/edtV2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Segundo Valor"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="163dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/checkSum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suma"
+                    tools:layout_editor_absoluteX="34dp"
+                    tools:layout_editor_absoluteY="233dp" />
+
+                <CheckBox
+                    android:id="@+id/checkExp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exponenciación"
+                    tools:layout_editor_absoluteX="34dp"
+                    tools:layout_editor_absoluteY="303dp" />
+
+                <CheckBox
+                    android:id="@+id/checkResta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resta"
+                    tools:layout_editor_absoluteX="185dp"
+                    tools:layout_editor_absoluteY="233dp" />
+
+                <CheckBox
+                    android:id="@+id/checkRad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Radiación"
+                    tools:layout_editor_absoluteX="185dp"
+                    tools:layout_editor_absoluteY="303dp" />
+
+                <CheckBox
+                    android:id="@+id/checkTodos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Todos" />
+
+                <CheckBox
+                    android:id="@+id/checkNinguno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ninguno" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/bttnOp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="operar"
+                android:text="Operar"
+                tools:layout_editor_absoluteX="118dp"
+                tools:layout_editor_absoluteY="379dp" />
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Resultado" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
